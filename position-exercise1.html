@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position exercise 14e</title>
+<style>
+.side-bar {
+    border: 1px solid;
+ 
+    height: 302px;
+    width: 471px;
+    position: fixed;
+    top: 86px;
+    right: 45px;
+    background-color: white;
+    height: 416px;
+}
+.pic-side-bar {
+    display: flex;
+    width: 78px;
+    margin-left: 0px;
+    margin-top: 0;
+    background-color:#1a1716;;
+    height: 416px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.right-sidebar-pic{
+  height: 49px;
+width: 50px;
+/* object-fit: cover; */
+margin-top: 2px; margin-left: 0; border-radius: 62px; margin-bottom: 4px;
+border-radius: 62px;
+}
+.middle-sidebar-container{
+  background-color:  #222222;
+    height: 416px;
+    width: 199px;
+    position: fixed;
+    right: 240px;
+
+}
+.middle-sidebar-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.info-title{
+  color:white;
+
+}
+.plus-btn {
+    color: white;
+    margin-right: 20px;
+   
+}
+.details-para{
+color:gray;
+}
+</style>
+</head>
+<body style="background-color:black;">
+  <div style="background-color:white;position:fixed;right:0;left:0;">
+ <div style="display: flex; flex-direction: row; align-items: center; ">
+<img style="height: 49px;
+width: 50px;
+/* object-fit: cover; */
+margin-top: 2px; margin-left: 55px; border-radius: 62px; margin-bottom: 4px;
+border-radius: 62px;" src="https://images.unsplash.com/photo-1585468274952-66591eb14165?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+<p style="margin-left: 5px;
+font-weight: bold;">Roni The Legend</p>
+<div style="position: fixed;
+right: 64px;"><button style="    background-color: #0385f4eb;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding-right: 15px;
+    padding-left: 13px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-radius: 6px;">Add Friend</button>
+<button style="border: none;
+   cursor: pointer;
+padding-right: 17px;
+padding-left: 14px;
+padding-top: 9px;
+padding-bottom: 5px;
+border-radius: 9px;
+font-weight: bold;">Message</button></div>
+ </div>
+  </div>
+  <!-- side bar -->
+ <div class="side-bar">
+<div class="pic-side-bar">
+<img class="right-sidebar-pic" src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+<img class="right-sidebar-pic" src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+<img class="right-sidebar-pic"   src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60">
+<div class="middle-sidebar-container">
+  <div class="middle-sidebar-title">
+     <p class="info-title">INFO</p>
+  <p class="plus-btn">+</p>
+  </div>
+ 
+  <div class="details-container">
+    <p class="details-para"># new-videos</p>
+    <p class="details-para"># updates</p>
+    <p class="details-para" ># faq</p>
+  
+  </div>
+  
+</div>
+</div>
+
+ </div>
+ </body>
+</body>
+</html>
